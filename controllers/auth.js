@@ -12,6 +12,7 @@ const register = async (req, res) => {
       location: user.location,
       name: user.name,
       token,
+    
     },
   });
 };
